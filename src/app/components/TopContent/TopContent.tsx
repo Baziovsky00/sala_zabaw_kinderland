@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import styles from './styles.module.css'
 import Link from 'next/link';
-import { motion, useScroll, useTransform } from "motion/react"
+import { motion, useScroll } from "motion/react"
 import { useEffect, useState } from 'react';
 
 const TopContent = () => {
