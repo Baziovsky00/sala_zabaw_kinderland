@@ -15,7 +15,7 @@ const AboutUsSection = () => {
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.8, delay: 0 }}>Nasza sala zabaw jest bezpieczna, nowoczesna, pełna kolorów i przestrzeni, stworzona z myślą o dzieciach i ich rodzicach. Tutaj twoje dziecko może rozwijać swoją wyobraźnię, sprawność ruchową oraz umiejętności społeczne, a ty zyskać chwile wytchnienia, lub załatwić ważne sprawy, mając pewność że twoja pociecha jest w dobrych rękach.<br /><br />
+                    transition={{ duration: 0.4, delay: 0 }}>Nasza sala zabaw jest bezpieczna, nowoczesna, pełna kolorów i przestrzeni, stworzona z myślą o dzieciach i ich rodzicach. Tutaj twoje dziecko może rozwijać swoją wyobraźnię, sprawność ruchową oraz umiejętności społeczne, a ty zyskać chwile wytchnienia, lub załatwić ważne sprawy, mając pewność że twoja pociecha jest w dobrych rękach.<br /><br />
                     Zapraszamy do naszej sali zabaw, miejsca które pokocha zarówno dzieci jak i rodzice. Stworzyliśmy bezpieczną, kolorową i inspirującą przestrzeń, gdzie dzieci mogą się wyszaleć, rozwijać, i spędzać czas na najlepszej zabawie a dorośli mają chwilę by się zrelaksować przy kawie obserwując radość swoich pociech.</motion.p>
                 <Image src={"/images/zdjecie1.jpg"} width={1200} height={600} alt="Sala zabaw Kinderland" />
             </div>
