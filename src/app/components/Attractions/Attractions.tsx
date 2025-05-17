@@ -53,7 +53,7 @@ const attractions = [
         content: 'celność i zabawa w jednym'
     },
     {
-        emote: '🎮',
+        emote: '🥷',
         title: 'Ninja Park',
         content: 'strefa zręczności i interaktywnych gier'
     },
@@ -63,7 +63,7 @@ const attractions = [
         content: 'wyskocz po uśmiech'
     },
     {
-        emote: '🛷',
+        emote: '🎢',
         title: 'Zjazd pontonowy',
         content: 'emocje gwarantowane!'
     }

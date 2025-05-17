@@ -66,19 +66,19 @@ const PricingPackages = () => {
                     <div className={styles.cakeInfo}>
                         <h4>Zadbaliśmy o to, by każde przyjęcie było w pełni dopasowane do potrzeb dziecka i oczekiwań rodziców</h4>
                         <p>Każda dodatkowa osoba do urodzin 35 zł</p>
-                        <p>Dzieci do 1 roku życia - wejście darmowe </p>
+                        <p>Dzieci do 1 roku życia - wejście darmowe</p>
                         <p>Strefa dla rodziców (kawa/herbata + stolik): 100 zł w mini i standard</p>
                     </div>
 
                     <div className={styles.cakeInfo}>
                         <h4>Informacja na temat tortów</h4>
                         <p>
-                            Ze względów sanitarno-epidemiologicznych informujemy że tort urodzinowy należy zorganizować we własnym
+                            Ze względów sanitarno-epidemiologicznych informujemy, że tort urodzinowy należy zorganizować we własnym
                             zakresie.
                         </p>
                         <p>Wymagane jest przyniesienie paragonu przy wnoszeniu tortu do naszej sali zabaw.</p>
                         <p>
-                            Dziękujemy za zrozumienie i współpracę - bezpieczeństwo, oraz komfort naszych małych gości jest dla nas
+                            Dziękujemy za zrozumienie i współpracę - bezpieczeństwo oraz komfort naszych małych gości jest dla nas
                             priorytetem.
                         </p>
                     </div>
