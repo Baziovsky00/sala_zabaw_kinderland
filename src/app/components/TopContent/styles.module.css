@@ -1,3 +1,7 @@
+.page {
+    margin-top: 70px;
+}
+
 .heroContent {
     position: relative;
     z-index: 2;
@@ -54,7 +58,7 @@
 }
 
 .baner {
-    margin-top: 2em;
+    margin-top: 1em;
     position: relative;
     min-height: 300px;
 }
@@ -65,7 +69,36 @@
     object-fit: cover;
 }
 
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4.5em;
+    font-size: 1.1em;
+
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: white;
+    padding-block: 1.5em;
+    transition: 0.16s ease-in-out;
+}
+
+.nav a {
+    font-weight: 600;
+    transition: 0.1s ease-in-out;
+}
+
+.nav a:hover {
+    color: rgb(255, 85, 73);
+}
+
 @media (max-width: 768px) {
+    .nav {
+        gap: 2em;
+    }
+
     .title {
         font-size: 2rem;
     }
@@ -86,6 +119,10 @@
 }
 
 @media (max-width: 480px) {
+    .nav {
+        font-size: 0.95em;
+        gap: 1.5em;
+    }
     .title {
         font-size: 1.8rem;
     }

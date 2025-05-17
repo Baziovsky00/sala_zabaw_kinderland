@@ -2,11 +2,29 @@
 import Image from 'next/image';
 import styles from './styles.module.css'
 import Link from 'next/link';
-import { motion } from "motion/react"
+import { motion, useScroll, useTransform } from "motion/react"
+import { useEffect, useState } from 'react';
 
 const TopContent = () => {
+    const { scrollY } = useScroll()
+    const [isFixed, setIsFixed] = useState(false);
+
+    useEffect(() => {
+        const unsubscribe = scrollY.on("change", (y) => {
+            setIsFixed(y > 0);
+        });
+        return () => unsubscribe();
+    }, [scrollY]);
+
     return (
         <div className={styles.page}>
+            <div className={styles.nav}
+            style={{boxShadow: isFixed ? '0px 0px 15px rgba(0,0,0,0.15)' : 'none'}}>
+                <Link href={'/#atrakcje'}>Atrakcje</Link>
+                <Link href={'/#cennik'}>Cennik</Link>
+                <Link href={'/#urodziny'}>Urodziny</Link>
+                <Link href={'/#kontakt'}>Kontakt</Link>
+            </div>
             <div className={styles.heroContent}>
                 <div className={styles.logoContainer}>
                     <Image
@@ -38,7 +56,7 @@ const TopContent = () => {
                     className={styles.baner}
                 />
             </div>
-        </div>
+        </div >
     );
 }
 
