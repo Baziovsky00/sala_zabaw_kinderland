@@ -24,21 +24,21 @@ const Contact = () => {
               <LuMapPin className={styles.contactIcon} />
               <p>Marszałka Józefa Piłsudskiego 52, 73-110 Stargard</p>
             </motion.div>
-            <motion.div className={styles.contactItem}
+            {/* <motion.div className={styles.contactItem}
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}>
               <FaPhoneAlt className={styles.contactIcon} />
               <p>+48 667 831 121</p>
-            </motion.div>
+            </motion.div> */}
             <motion.div className={styles.contactItem}
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}>
               <IoMdMail className={styles.contactIcon} />
-              <p>kinderland@gmail.pl</p>
+              <p>Kinderland.net@gmail.com</p>
             </motion.div>
             <motion.div className={styles.contactItem}
               initial={{ opacity: 0, y: 10 }}

@@ -41,8 +41,8 @@ const Footer = () => {
                     </div>
                     <div className={styles.footerContact}>
                         <p>Marszałka Józefa Piłsudskiego 52, 73-110 Stargard</p>
-                        <p>+48 667 831 121</p>
-                        <p>kinderland@gmail.pl</p>
+                        {/* <p>+48 667 831 121</p> */}
+                        <p>Kinderland.net@gmail.com</p>
                     </div>
                 </div>
                 <div className={styles.footerBottom}>
