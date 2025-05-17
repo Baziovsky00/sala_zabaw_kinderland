@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 import Link from 'next/link';
 import { motion, useScroll } from "motion/react"
 import { useEffect, useState } from 'react';
-import { FaCross, FaX } from 'react-icons/fa6';
+import { FaX } from 'react-icons/fa6';
 
 const TopContent = () => {
     const { scrollY } = useScroll()
