@@ -1,0 +1,46 @@
+.page {
+    margin-top: 7em;
+    width: 100%;
+    padding-inline: 10px;
+    padding-bottom: 5em;
+    background-color: rgb(247, 247, 247);
+}
+
+.page h2 {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 700;
+    color: rgb(255, 85, 73);
+}
+
+.hoursCard {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 6px;
+  padding: 1.5em;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.hoursRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.hoursRow:last-child {
+  border-bottom: none;
+}
+
+.day {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.time {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}

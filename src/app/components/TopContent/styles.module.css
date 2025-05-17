@@ -1,0 +1,100 @@
+.heroContent {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 2em;
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: white;
+    padding: 0.1rem;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: rgb(44, 44, 44);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    margin-top: 1.2em;
+    font-size: 1.5rem;
+    color: rgb(27, 27, 27);
+}
+
+.heroButton {
+    margin-top: 2em;
+    background-color:  rgb(255, 85, 73);
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.heroButton:hover {
+    transform: scale(1.02);
+    background-color: rgb(255, 48, 33);
+    opacity: 0.9;
+}
+
+.baner {
+    margin-top: 2em;
+    position: relative;
+    min-height: 300px;
+}
+
+.baner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .heroButton {
+        font-size: 1rem;
+        padding: 0.6rem 1.5rem;
+    }
+
+    .logoContainer {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .heroContent {
+        padding: 1rem 0.5rem;
+    }
+}

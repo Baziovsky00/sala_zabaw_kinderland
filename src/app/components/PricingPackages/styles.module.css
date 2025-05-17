@@ -1,0 +1,53 @@
+.page {
+    margin-top: 2em;
+    width: 100%;
+    padding-inline: 10px;
+    padding-bottom: 2em;
+}
+
+.page h2 {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 700;
+    color: rgb(255, 85, 73);
+}
+
+.birthdayTable {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  max-width: 1400px;
+  margin-left: auto;
+  overflow: hidden;
+  margin-right: auto;
+}
+
+.birthdayNotes {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-top: 3rem;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 6px;
+  padding: 1.5rem;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.birthdayNotes p {
+  margin-bottom: 0.5rem;
+}
+
+.cakeInfo {
+  margin-top: 1.5rem;
+  border-bottom: 1px dashed #e2e8f0;
+  padding-bottom: 2em;
+}
+
+.cakeInfo h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 85, 73)
+}
