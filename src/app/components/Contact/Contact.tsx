@@ -1,7 +1,7 @@
 'use client'
 import styles from './styles.module.css'
 import { LuMapPin } from "react-icons/lu";
-import { FaPhoneAlt } from "react-icons/fa";
+// import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { FaClock } from "react-icons/fa6";
 import { motion } from "motion/react"
